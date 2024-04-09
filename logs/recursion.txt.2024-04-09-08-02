@@ -1,0 +1,510 @@
+  2024-04-09T08:02:19.585095Z  INFO tracing_recursion: Move, current: 1
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 0,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 0,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.586244Z  INFO tracing_recursion: Move, current: 2
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 0,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.586492Z  INFO tracing_recursion: Move, current: 3
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 2,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 0,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.587046Z  INFO tracing_recursion: Move, current: 4
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.587465Z  INFO tracing_recursion: Move, current: 5
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 4,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 4,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.587827Z  INFO tracing_recursion: Move, current: 6
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 4,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.588206Z  INFO tracing_recursion: Move, current: 7
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 6,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 4,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 0,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.588671Z  INFO tracing_recursion: Move, current: 8
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589036Z  INFO tracing_recursion: Move, current: 9
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 8,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 8,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589223Z  INFO tracing_recursion: Move, current: 10
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 8,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589400Z  INFO tracing_recursion: Move, current: 11
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 10,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 8,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589575Z  INFO tracing_recursion: Move, current: 12
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589696Z  INFO tracing_recursion: Move, current: 13
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 12,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 12,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589808Z  INFO tracing_recursion: Move, current: 14
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 12,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.589921Z  INFO tracing_recursion: Move, current: 15
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 14,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 12,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 8,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 0,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590048Z  INFO tracing_recursion: Move, current: 16
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590181Z  INFO tracing_recursion: Move, current: 17
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 16,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 16,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590301Z  INFO tracing_recursion: Move, current: 18
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 16,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590426Z  INFO tracing_recursion: Move, current: 19
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 18,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 16,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590551Z  INFO tracing_recursion: Move, current: 20
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590678Z  INFO tracing_recursion: Move, current: 21
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 20,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 20,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590800Z  INFO tracing_recursion: Move, current: 22
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 20,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.590925Z  INFO tracing_recursion: Move, current: 23
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 22,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 20,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 16,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591054Z  INFO tracing_recursion: Move, current: 24
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591190Z  INFO tracing_recursion: Move, current: 25
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 24,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 24,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591317Z  INFO tracing_recursion: Move, current: 26
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 24,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591452Z  INFO tracing_recursion: Move, current: 27
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 26,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 24,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591592Z  INFO tracing_recursion: Move, current: 28
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591731Z  INFO tracing_recursion: Move, current: 29
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 28,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 28,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.591922Z  INFO tracing_recursion: Move, current: 30
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 28,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592064Z  INFO tracing_recursion: Move, current: 31
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 30,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 28,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 24,
+    in tracing_recursion::hanoi with n: 4,from: 'C',to: 'B',by: 'A',depth: 2,previous: 16,
+    in tracing_recursion::hanoi with n: 5,from: 'A',to: 'B',by: 'C',depth: 1,previous: 0,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592217Z  INFO tracing_recursion: Move, current: 32
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592378Z  INFO tracing_recursion: Move, current: 33
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 32,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 32,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592517Z  INFO tracing_recursion: Move, current: 34
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 32,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592655Z  INFO tracing_recursion: Move, current: 35
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 34,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 32,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592797Z  INFO tracing_recursion: Move, current: 36
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.592940Z  INFO tracing_recursion: Move, current: 37
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 36,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 36,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.593266Z  INFO tracing_recursion: Move, current: 38
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 36,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.593600Z  INFO tracing_recursion: Move, current: 39
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 38,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 36,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 32,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.593852Z  INFO tracing_recursion: Move, current: 40
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594030Z  INFO tracing_recursion: Move, current: 41
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 40,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 40,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594186Z  INFO tracing_recursion: Move, current: 42
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 40,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594341Z  INFO tracing_recursion: Move, current: 43
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 42,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 40,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594501Z  INFO tracing_recursion: Move, current: 44
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594664Z  INFO tracing_recursion: Move, current: 45
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 44,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 44,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594827Z  INFO tracing_recursion: Move, current: 46
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 44,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.594989Z  INFO tracing_recursion: Move, current: 47
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 46,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 44,
+    in tracing_recursion::hanoi with n: 3,from: 'C',to: 'A',by: 'B',depth: 3,previous: 40,
+    in tracing_recursion::hanoi with n: 4,from: 'B',to: 'A',by: 'C',depth: 2,previous: 32,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.595160Z  INFO tracing_recursion: Move, current: 48
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.595337Z  INFO tracing_recursion: Move, current: 49
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 48,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 48,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.595635Z  INFO tracing_recursion: Move, current: 50
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 48,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.595899Z  INFO tracing_recursion: Move, current: 51
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 50,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 48,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.596326Z  INFO tracing_recursion: Move, current: 52
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.596644Z  INFO tracing_recursion: Move, current: 53
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 52,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 52,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.596912Z  INFO tracing_recursion: Move, current: 54
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 52,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.597198Z  INFO tracing_recursion: Move, current: 55
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 54,
+    in tracing_recursion::hanoi with n: 2,from: 'C',to: 'B',by: 'A',depth: 4,previous: 52,
+    in tracing_recursion::hanoi with n: 3,from: 'A',to: 'B',by: 'C',depth: 3,previous: 48,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.597516Z  INFO tracing_recursion: Move, current: 56
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.597776Z  INFO tracing_recursion: Move, current: 57
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 56,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 56,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.598011Z  INFO tracing_recursion: Move, current: 58
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 56,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.598306Z  INFO tracing_recursion: Move, current: 59
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'C',to: 'A',by: 'B',depth: 5,previous: 58,
+    in tracing_recursion::hanoi with n: 2,from: 'B',to: 'A',by: 'C',depth: 4,previous: 56,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.598607Z  INFO tracing_recursion: Move, current: 60
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.598921Z  INFO tracing_recursion: Move, current: 61
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'A',to: 'B',by: 'C',depth: 5,previous: 60,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 60,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.599174Z  INFO tracing_recursion: Move, current: 62
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 60,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
+  2024-04-09T08:02:19.599385Z  INFO tracing_recursion: Move, current: 63
+    at src\bin\tracing-recursion.rs:8
+    in tracing_recursion::hanoi with n: 1,from: 'B',to: 'C',by: 'A',depth: 5,previous: 62,
+    in tracing_recursion::hanoi with n: 2,from: 'A',to: 'C',by: 'B',depth: 4,previous: 60,
+    in tracing_recursion::hanoi with n: 3,from: 'B',to: 'C',by: 'A',depth: 3,previous: 56,
+    in tracing_recursion::hanoi with n: 4,from: 'A',to: 'C',by: 'B',depth: 2,previous: 48,
+    in tracing_recursion::hanoi with n: 5,from: 'B',to: 'C',by: 'A',depth: 1,previous: 32,
+    in tracing_recursion::hanoi with n: 6,from: 'A',to: 'C',by: 'B',depth: 0,previous: 0,
+
