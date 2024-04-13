@@ -1,0 +1,4 @@
+create table <%= tbl.name %> (
+    <% for (j, cln) in tbl.columns.iter().enumerate() {%><% include!("./column.stpl"); %><% if j < (tbl.columns.len() - 1) {%>,
+    <%}%><%}%>
+);

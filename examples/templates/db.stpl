@@ -1,0 +1,3 @@
+create database <%= name %>;
+<%for (_, tbl) in tables.iter().enumerate() {%><% include!("./table.stpl"); %>
+<%}%>

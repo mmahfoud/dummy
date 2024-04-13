@@ -1,0 +1,6 @@
+<% 
+    let ref_string = match &cln.parent {
+        Some(p) => format!(" references {}({})", p.0, p.1),
+        None => "".to_string(),
+    };
+%><%=cln.name%> <%=cln.consolidated_type%><%if !cln.is_nullable {%> not<%}%> null<%if cln.is_identity {%> generated always as identity<%}%><%=ref_string%>
